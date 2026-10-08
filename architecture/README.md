@@ -1,16 +1,18 @@
 # Architecture
 
-This directory will contain the lab architecture and its evolution.
+This directory records the lab architecture and its evolution.
 
-## Planned contents
+## Current design
 
-- logical architecture diagram;
-- host and VM resource allocation;
-- virtual network design;
-- telemetry flow;
-- component responsibilities;
-- architecture decisions and trade-offs.
+The active target architecture is [v2.md](v2.md).
 
-## Current status
+It expands the original SOC-only design into an AI-Augmented Security Operations Lab while preserving the same infrastructure principle: the physical laptop should not host the complete Wazuh central stack because of its limited memory.
 
-Architecture is not finalized yet. Phase 0 will determine the design based on the actual host resources and existing virtual machines.
+## Documents
+
+- [host-inventory.md](host-inventory.md) — validated host constraints.
+- [v1.md](v1.md) — historical initial SOC architecture; superseded by v2.
+- [v2.md](v2.md) — current target architecture.
+- [azure-cost-guardrails.md](azure-cost-guardrails.md) — cloud cost controls.
+
+Architecture documents distinguish proposed design from implemented and validated components.
