@@ -1,0 +1,36 @@
+# Secrets and local configuration
+.env
+.env.*
+*.key
+*.pem
+*.pfx
+*.p12
+secrets/
+credentials/
+
+# Logs and generated data
+*.log
+logs/
+tmp/
+temp/
+
+# VM / lab artifacts
+*.vmdk
+*.vmem
+*.vmss
+*.vmsn
+*.nvram
+*.ova
+*.ovf
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
