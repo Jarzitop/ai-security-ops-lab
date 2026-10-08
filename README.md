@@ -2,9 +2,7 @@
 
 A hands-on cybersecurity project for building, testing, and evaluating an end-to-end security operations workflow with SIEM/XDR telemetry, detection engineering, incident investigation, and an evidence-grounded AI analyst assistant.
 
-> This is a controlled personal lab. It is not production SOC experience, and planned capabilities are not presented as implemented until they are validated.
 
-## Project Objective
 
 Build a reproducible lab that connects:
 
